@@ -1,33 +1,44 @@
 import os
 import json
 
-base_dir = '.' 
+base_dir = './assets/projects' 
 gallery_data = []
 
-# Potential cities to look for - you can add more to this list later
-known_cities = ['menlo-park', 'cupertino', 'palo-alto', 'saratoga', 'san-francisco', 'south-san-francisco', 'atherton', 'los-altos', 'hillsborough', 'san-jose', 'mountain-view']
+# Rooms we are looking for
+room_types = ['kitchen', 'bathroom', 'laundry', 'outdoor', 'fireplace', 'office']
 
 for root, dirs, files in os.walk(base_dir):
     for filename in files:
         if filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
-            # 1. Determine Year (from folder name)
-            folder_name = os.path.basename(root)
-            year_tag = folder_name if (folder_name.isdigit() and len(folder_name) == 4) else "Archive"
             
-            # 2. Determine Location (from filename)
-            detected_loc = "Other Locations"
+            clean_name = filename.lower().replace('.jpeg', '').replace('.jpg', '').replace('.png', '')
+            
+            # Default values
             filter_tag = "other"
-            
-            name_lower = filename.lower().replace('_', '-').replace(' ', '-')
-            for city in known_cities:
-                if name_lower.startswith(city):
-                    detected_loc = city.replace('-', ' ').title()
-                    filter_tag = city
+            detected_loc = "Project"
+            year_tag = os.path.basename(root) if os.path.basename(root).isdigit() else "2024"
+
+            # 1. Extract Room Type
+            for room in room_types:
+                if room in clean_name:
+                    filter_tag = room
                     break
             
-            # 3. Create the entry
-            # We use a relative path that will match your GitHub structure
-            relative_src = f"assets/projects/{year_tag}/{filename}"
+            # 2. Extract Year
+            parts = clean_name.split('-')
+            found_year = next((p for p in parts if p.isdigit() and len(p) == 4), year_tag)
+            year_tag = found_year
+
+            # 3. Extract Location (The part between Room and Year)
+            # We remove the room name and year/numbers to leave just the city
+            loc_step = clean_name.replace(filter_tag, '').replace(year_tag, '')
+            # Clean up leftover dashes or numbers at the end
+            for i in range(10): loc_step = loc_step.replace(str(i), '')
+            detected_loc = loc_step.replace('-', ' ').strip().title()
+            
+            if not detected_loc: detected_loc = "Bay Area"
+
+            relative_src = f"assets/projects/{os.path.basename(root)}/{filename}"
             
             gallery_data.append({
                 "location": detected_loc,
@@ -39,9 +50,5 @@ for root, dirs, files in os.walk(base_dir):
 with open('gallery-data.json', 'w') as f:
     json.dump(gallery_data, f, indent=4)
 
-# Print a summary for you
-cities_found = set(item['location'] for item in gallery_data)
-print(f"\n--- Process Complete ---")
-print(f"Total Photos Found: {len(gallery_data)}")
-print(f"Locations Identified: {', '.join(cities_found)}")
-print(f"File created: gallery-data.json")
+print(f"--- Processed {len(gallery_data)} photos ---")
+print(f"Filters found: {set(item['filter_tag'] for item in gallery_data)}")

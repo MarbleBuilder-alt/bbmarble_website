@@ -1,2348 +1,2084 @@
 [
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino  _",
+        "filter_tag": "other",
         "year": "2022",
         "src": "assets/projects/2022/Cupertino 2-2022_05.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_06.jpeg"
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_13.jpeg"
     },
     {
-        "location": "Other Locations",
+        "location": "Menlo Park  _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Menlo Park 1-2022_06.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_08.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_09.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_02.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_04.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_05.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_08.jpeg"
+    },
+    {
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Cupertino 2-2022_08.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_12.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_04.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_02.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_03.jpeg"
+    },
+    {
+        "location": "Portola Valley _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Portola Valley-2022_08.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_02.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_03.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_05.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_13.jpeg"
+    },
+    {
+        "location": "Portola Valley _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Portola Valley-2022_06.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_06.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_10.jpeg"
+    },
+    {
+        "location": "Roompleasanton ~_",
+        "filter_tag": "laundry",
+        "year": "2022",
+        "src": "assets/projects/2022/LaundryroomPleasanton-2022~2023_03.jpeg"
+    },
+    {
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Cupertino 2-2022_02.jpeg"
+    },
+    {
+        "location": "Custommenlo Park  _",
         "filter_tag": "other",
         "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_05.jpeg"
+        "src": "assets/projects/2022/CustomMenlo Park 1-2022_14.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_10.jpeg"
+        "src": "assets/projects/2022/Kitchen-Cupertino 2-2022_03.jpeg"
     },
     {
-        "location": "Other Locations",
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_11.jpeg"
+    },
+    {
+        "location": "Pleasanton ~_",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Pleasanton-2022~2023_07.jpeg"
+    },
+    {
+        "location": "Portola Valley _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Portola Valley-2022_07.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Menlo Park 1-2022_04.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_11.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Menlo Park 1-2022_12.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_07.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_06.jpeg"
+    },
+    {
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
+        "year": "2022",
+        "src": "assets/projects/2022/Bathroom-Cupertino 2-2022_07.jpeg"
+    },
+    {
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Cupertino 2-2022_04.jpeg"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Redwood City 1-2022_07.jpeg"
+    },
+    {
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
+        "year": "2022",
+        "src": "assets/projects/2022/Kitchen-Menlo Park 1-2022_10.jpeg"
+    },
+    {
+        "location": "Cupertino  _",
         "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_13.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_07.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_06.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2022",
-        "src": "assets/projects/2022/Cupertino 2-2022_08.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_11.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_12.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_02.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_07.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_04.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2022",
-        "src": "assets/projects/2022/Cupertino 2-2022_04.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_09.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2022",
-        "src": "assets/projects/2022/Cupertino 2-2022_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_12.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_02.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2022",
-        "src": "assets/projects/2022/Cupertino 2-2022_02.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_08.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_11.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_14.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_07.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_02.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_06.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Portola Valley-2022_10.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_02.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_11.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_12.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_09.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_07.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_04.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2022",
-        "src": "assets/projects/2022/Cupertino 2-2022_07.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_08.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_05.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_04.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_09.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
         "year": "2022",
         "src": "assets/projects/2022/Cupertino 2-2022_10.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_06.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_05.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Redwood City 1-2022_08.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2022",
-        "src": "assets/projects/2022/Pleasanton-2022~2023_10.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2022",
-        "src": "assets/projects/2022/Menlo Park 1-2022_13.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga _",
+        "filter_tag": "fireplace",
         "year": "2025",
-        "src": "assets/projects/2025/Cupertino-2025-1_05.jpeg"
+        "src": "assets/projects/2025/Fireplace-Saratoga-2025_02.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Customcupertino  _",
+        "filter_tag": "other",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_08.jpeg"
+        "src": "assets/projects/2025/CustomCupertino-2025-1_05.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "bathroom",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_04.jpeg"
+        "src": "assets/projects/2025/Bathroom-Menlo Park-2025_07.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_11.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_11.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_12.jpeg"
+        "src": "assets/projects/2025/Kitchen-Saratoga-2025_08.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_13.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_10.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "bathroom",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_09.jpeg"
+        "src": "assets/projects/2025/Bathroom-Menlo Park-2025_06.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga _",
+        "filter_tag": "fireplace",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_02.jpeg"
+        "src": "assets/projects/2025/Fireplace-Saratoga-2025_05.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Customcupertino  _",
+        "filter_tag": "other",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_14.jpeg"
+        "src": "assets/projects/2025/CustomCupertino-2025-1_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Cupertino-2025-1_03.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_09.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_15.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_13.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "bathroom",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_03.jpeg"
+        "src": "assets/projects/2025/Bathroom-Menlo Park-2025_04.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_03.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_12.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_02.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_08.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_09.jpeg"
+        "src": "assets/projects/2025/Kitchen-Saratoga-2025_11.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "bathroom",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_10.jpeg"
+        "src": "assets/projects/2025/Bathroom-Menlo Park-2025_03.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park _",
+        "filter_tag": "bathroom",
         "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_05.jpeg"
+        "src": "assets/projects/2025/Bathroom-Menlo Park-2025_15.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_06.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_02.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park _",
+        "filter_tag": "kitchen",
         "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_07.jpeg"
+        "src": "assets/projects/2025/Kitchen-Menlo Park-2025_14.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
-        "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_04.jpeg"
-    },
-    {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
-        "year": "2025",
-        "src": "assets/projects/2025/Menlo Park-2025_11.jpeg"
-    },
-    {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
-        "year": "2025",
-        "src": "assets/projects/2025/Saratoga-2025_08.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Ronbow San Jose showroom-2024_04.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_09.jpeg"
-    },
-    {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
-        "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_02.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_06.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_05.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_13.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_10.jpeg"
-    },
-    {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
-        "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_10.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Ronbow San Jose showroom-2024_08.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
-        "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_05.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_06.jpeg"
-    },
-    {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
-        "year": "2024",
-        "src": "assets/projects/2024/San Jose-2024-1_03.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_09.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_10.jpeg"
-    },
-    {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
-        "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-2_08.jpeg"
-    },
-    {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
-        "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-2_09.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_11.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_10.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/San Jose-2024-1_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_16.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae A_",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_07.jpeg"
+        "src": "assets/projects/2024/Bathroom-Millbrae-2024a_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Room Millbrae A_",
+        "filter_tag": "laundry",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_02.jpeg"
+        "src": "assets/projects/2024/Laundryroom-Millbrae-2024a_05.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Santa Clara _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_04.jpeg"
+        "src": "assets/projects/2024/Bathroom-Santa Clara-2024_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Ronbow San Jose showroom-2024_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_13.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_14.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_11.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_14.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_12.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_04.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-2_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-2_06.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Ronbow San Jose Showroom _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_03.jpeg"
+        "src": "assets/projects/2024/Kitchen-Ronbow San Jose showroom-2024_10.jpeg"
     },
     {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Ronbow San Jose Showroom _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Ronbow San Jose showroom-2024_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Ronbow San Jose showroom-2024_05.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_08.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Millbrae A_",
+        "filter_tag": "fireplace",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_05.jpeg"
+        "src": "assets/projects/2024/Fireplace-Millbrae-2024a_15.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_13.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_04.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Hillsborough _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_03.jpeg"
+        "src": "assets/projects/2024/Bathroom-Hillsborough-2024_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae A_",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_05.jpeg"
+        "src": "assets/projects/2024/Bathroom-Millbrae-2024a_10.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_12.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_09.jpeg"
+        "src": "assets/projects/2024/Bathroom-Cupertino-2024-1_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_07.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_04.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_12.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Los Gatos _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_10.jpeg"
+        "src": "assets/projects/2024/Bathroom-Los Gatos-2024_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_03.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_15.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_06.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-2_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_03.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_06.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_10.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-1_10.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_14.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_08.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_05.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_14.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_11.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_02.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_11.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/San Jose-2024-1_04.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_02.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_14.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_04.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_07.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_10.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Los Gatos _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_04.jpeg"
+        "src": "assets/projects/2024/Bathroom-Los Gatos-2024_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_12.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_13.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_14.jpeg"
+        "src": "assets/projects/2024/Bathroom-Cupertino-2024-1_08.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Los Gatos _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_08.jpeg"
+        "src": "assets/projects/2024/Bathroom-Los Gatos-2024_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_10.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae A_",
+        "filter_tag": "fireplace",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_11.jpeg"
+        "src": "assets/projects/2024/Fireplace-Millbrae-2024a_06.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_08.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Santa Clara _",
+        "filter_tag": "fireplace",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_04.jpeg"
+        "src": "assets/projects/2024/Fireplace-Santa Clara-2024_12.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Hillsborough _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_10.jpeg"
+        "src": "assets/projects/2024/Bathroom-Hillsborough-2024_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_14.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_12.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_12.jpeg"
+        "src": "assets/projects/2024/Bathroom-Cupertino-2024-1_07.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_06.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-1_04.jpeg"
     },
     {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_04.jpeg"
     },
     {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
+        "location": "Millbrae A_",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_03.jpeg"
+        "src": "assets/projects/2024/Bathroom-Millbrae-2024a_03.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_13.jpeg"
+        "src": "assets/projects/2024/Kitchen-San Jose-2024-1_02.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Millbrae A_",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_07.jpeg"
+        "src": "assets/projects/2024/Bathroom-Millbrae-2024a_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_03.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_16.jpeg"
+        "src": "assets/projects/2024/Kitchen-San Jose-2024-1_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_15.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-1_05.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_05.jpeg"
+        "src": "assets/projects/2024/Bathroom-Cupertino-2024-1_06.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-1_11.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_10.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_13.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Hillsborough _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_06.jpeg"
+        "src": "assets/projects/2024/Bathroom-Hillsborough-2024_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Los Gatos-2024_06.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_08.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-1_10.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_03.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_04.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_11.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Los Gatos _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_02.jpeg"
+        "src": "assets/projects/2024/Kitchen-Los Gatos-2024_07.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-2_06.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-2_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_12.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-2_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_11.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Room Millbrae A_",
+        "filter_tag": "laundry",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_04.jpeg"
+        "src": "assets/projects/2024/Laundryroom-Millbrae-2024a_07.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Hillsborough _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_14.jpeg"
+        "src": "assets/projects/2024/Bathroom-Hillsborough-2024_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_14.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-2_10.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_04.jpeg"
     },
     {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_04.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Atherton _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Ronbow San Jose showroom-2024_10.jpeg"
+        "src": "assets/projects/2024/Kitchen-Atherton-2024_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Ronbow San Jose showroom-2024_06.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-1_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_12.jpeg"
+        "src": "assets/projects/2024/Kitchen-San Jose-2024-1_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_02.jpeg"
     },
     {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
+        "location": "Ronbow San Jose Showroom _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_08.jpeg"
+        "src": "assets/projects/2024/Kitchen-Ronbow San Jose showroom-2024_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_04.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-1_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_11.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_08.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Millbrae A_",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Cupertino-2024-2_10.jpeg"
+        "src": "assets/projects/2024/Bathroom-Millbrae-2024a_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae A_",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_05.jpeg"
+        "src": "assets/projects/2024/Bathroom-Millbrae-2024a_08.jpeg"
     },
     {
-        "location": "Hillsborough",
-        "filter_tag": "hillsborough",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Hillsborough-2024_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_09.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Ronbow San Jose Showroom _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Ronbow San Jose showroom-2024_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_13.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Santa Clara-2024_09.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-1_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Millbrae _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_05.jpeg"
+        "src": "assets/projects/2024/Kitchen-Millbrae-2024_15.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_06.jpeg"
+        "src": "assets/projects/2024/Kitchen-Cupertino-2024-2_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Ronbow San Jose Showroom _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024_10.jpeg"
+        "src": "assets/projects/2024/Kitchen-Ronbow San Jose showroom-2024_08.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Santa Clara _",
+        "filter_tag": "bathroom",
         "year": "2024",
-        "src": "assets/projects/2024/Millbrae-2024a_13.jpeg"
+        "src": "assets/projects/2024/Bathroom-Santa Clara-2024_05.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Santa Clara _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Palo Alto-2024-2_07.jpeg"
+        "src": "assets/projects/2024/Kitchen-Santa Clara-2024_10.jpeg"
     },
     {
-        "location": "Atherton",
-        "filter_tag": "atherton",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2024",
-        "src": "assets/projects/2024/Atherton-2024_03.jpeg"
+        "src": "assets/projects/2024/Kitchen-Palo Alto-2024-2_08.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Valore Showroom-2023_07.jpeg"
+        "src": "assets/projects/2023/Bathroom-Palo Alto 2-2023_05.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Los Altos  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Los Altos 1-2023_04.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Mountain View-2023_03.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 1-2023_04.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/San Jose 1-2023_06.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_03.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga-2023-2_02.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_11.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga 1-2023_10.jpeg"
     },
     {
-        "location": "Los Altos",
-        "filter_tag": "los-altos",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Los Altos 1-2023_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-San Jose 1-2023_02.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 2-2023_05.jpeg"
+        "src": "assets/projects/2023/Bathroom-Saratoga 1-2023_07.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 1-2023_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga 1-2023_11.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 1-2023_06.jpeg"
+        "src": "assets/projects/2023/Bathroom-Saratoga-2023-2_03.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 2-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_02.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_10.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 1-2023_05.jpeg"
     },
     {
-        "location": "Los Altos",
-        "filter_tag": "los-altos",
+        "location": "Los Altos  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Los Altos 1-2023_06.jpeg"
+        "src": "assets/projects/2023/Kitchen-Los Altos 1-2023_05.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Mountain View _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_06.jpeg"
+        "src": "assets/projects/2023/Kitchen-Mountain View-2023_07.jpeg"
     },
     {
-        "location": "Los Altos",
-        "filter_tag": "los-altos",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Los Altos 1-2023_10.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga-2023-2_08.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Valore Showroom _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_14.jpeg"
+        "src": "assets/projects/2023/Kitchen-Valore Showroom-2023_10.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-San Jose 1-2023_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Los Altos  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Valore Showroom-2023_10.jpeg"
+        "src": "assets/projects/2023/Kitchen-Los Altos 1-2023_02.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Mountain View-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 1-2023_02.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_03.jpeg"
+        "src": "assets/projects/2023/Bathroom-Saratoga-2023-2_12.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_08.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_05.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 2-2023_03.jpeg"
+        "src": "assets/projects/2023/Bathroom-Saratoga-2023-2_04.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_09.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_12.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga-2023-2_05.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Mountain View-2023_05.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_04.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_12.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 1-2023_03.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Valore Showroom _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_05.jpeg"
+        "src": "assets/projects/2023/Kitchen-Valore Showroom-2023_07.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_13.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_08.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Mountain View _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_12.jpeg"
+        "src": "assets/projects/2023/Kitchen-Mountain View-2023_06.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Valore Showroom _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Valore Showroom-2023_04.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Mountain View _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Mountain View-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Mountain View-2023_05.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_05.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga 1-2023_02.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_08.jpeg"
+        "src": "assets/projects/2023/Bathroom-Saratoga 1-2023_14.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 2-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga-2023-2_10.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Valore Showroom _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 1-2023_03.jpeg"
+        "src": "assets/projects/2023/Kitchen-Valore Showroom-2023_08.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_03.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga-2023-2_06.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "fireplace",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_11.jpeg"
+        "src": "assets/projects/2023/Fireplace-Saratoga 1-2023_05.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 2-2023_02.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_10.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 2-2023_03.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/San Jose 1-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_06.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Mountain View-2023_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga-2023-2_07.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_06.jpeg"
+        "src": "assets/projects/2023/Kitchen-Cupertino-2023_10.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Valore Showroom _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Cupertino-2023_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-Valore Showroom-2023_09.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Mountain View _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Mountain View-2023_06.jpeg"
+        "src": "assets/projects/2023/Kitchen-Mountain View-2023_04.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga 1-2023_10.jpeg"
+        "src": "assets/projects/2023/Kitchen-San Jose 1-2023_06.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 1-2023_06.jpeg"
     },
     {
-        "location": "Los Altos",
-        "filter_tag": "los-altos",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Los Altos 1-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 2-2023_04.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Los Altos  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 1-2023_02.jpeg"
+        "src": "assets/projects/2023/Kitchen-Los Altos 1-2023_06.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 1-2023_05.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga 1-2023_08.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Los Altos  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 2-2023_07.jpeg"
+        "src": "assets/projects/2023/Kitchen-Los Altos 1-2023_10.jpeg"
     },
     {
-        "location": "Los Altos",
-        "filter_tag": "los-altos",
+        "location": "Palo Alto  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Los Altos 1-2023_05.jpeg"
+        "src": "assets/projects/2023/Bathroom-Palo Alto 2-2023_07.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "fireplace",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_05.jpeg"
+        "src": "assets/projects/2023/Fireplace-Saratoga-2023-2_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Mountain View _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Valore Showroom-2023_09.jpeg"
+        "src": "assets/projects/2023/Kitchen-Mountain View-2023_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Valore Showroom-2023_08.jpeg"
+        "src": "assets/projects/2023/Bathroom-Saratoga 1-2023_12.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Mountain View _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Mountain View-2023_02.jpeg"
     },
     {
-        "location": "Los Altos",
-        "filter_tag": "los-altos",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Los Altos 1-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga 1-2023_13.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Palo Alto  _",
+        "filter_tag": "bathroom",
         "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_12.jpeg"
+        "src": "assets/projects/2023/Bathroom-Palo Alto 2-2023_06.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 2-2023_06.jpeg"
+        "src": "assets/projects/2023/Kitchen-Saratoga 1-2023_09.jpeg"
     },
     {
-        "location": "Palo Alto",
-        "filter_tag": "palo-alto",
+        "location": "Los Altos  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Palo Alto 1-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Los Altos 1-2023_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Palo Alto  _",
+        "filter_tag": "kitchen",
         "year": "2023",
-        "src": "assets/projects/2023/Valore Showroom-2023_04.jpeg"
+        "src": "assets/projects/2023/Kitchen-Palo Alto 1-2023_07.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
-        "year": "2023",
-        "src": "assets/projects/2023/Saratoga-2023-2_08.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_06.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
-        "year": "2023",
-        "src": "assets/projects/2023/San Jose 1-2023_05.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_10.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Lusso Showroom_02.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_16.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_10.jpeg"
+        "location": "Lusso Showroom_",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Kitchen--Lusso Showroom_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_10.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_06.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_06.jpeg"
+        "location": "Lusso Showroom_",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Kitchen--Lusso Showroom_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_07.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_10.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_11.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_11.jpeg"
+        "location": "Lusso Showroom_",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Kitchen--Lusso Showroom_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Lusso Showroom_03.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_08.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_16.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_12.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Lusso Showroom_04.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Lusso Showroom_05.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_02.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_02.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_13.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_14.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Lusso Showroom_06.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_18.jpeg"
+        "location": "_",
+        "filter_tag": "fireplace",
+        "year": "2024",
+        "src": "assets/projects/Archive/Fireplace-_18.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Lusso Showroom_07.jpeg"
+        "location": "Lusso Showroom_",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Kitchen--Lusso Showroom_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_03.jpeg"
+        "location": "Lusso Showroom_",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Kitchen--Lusso Showroom_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_08.jpeg"
+        "location": "Outdoor  _",
+        "filter_tag": "kitchen",
+        "year": "2024",
+        "src": "assets/projects/Archive/Outdoor- Kitchen_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_08.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_04.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_04.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_12.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_12.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_13.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_13.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_05.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Outdoor Kitchen_09.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "Archive",
-        "src": "assets/projects/Archive/Fireplace_09.jpeg"
-    },
-    {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Cupertino 2026_05.jpeg"
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Fremont-2026_03.jpeg"
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Fremont-2026_02.jpeg"
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Fremont _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Cupertino 2026_04.jpeg"
+        "src": "assets/projects/2026/Kitchen-Fremont-2026_02.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2026",
-        "src": "assets/projects/2026/Cupertino 2026_03.jpeg"
+        "src": "assets/projects/2026/BathroomCupertino 2026_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Fremont _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Fremont-2026_05.jpeg"
+        "src": "assets/projects/2026/Kitchen-Fremont-2026_03.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Fremont-2026_04.jpeg"
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_06.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Fremont _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Cupertino 2026_02.jpeg"
+        "src": "assets/projects/2026/Kitchen-Fremont-2026_04.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Fremont _",
+        "filter_tag": "kitchen",
         "year": "2026",
-        "src": "assets/projects/2026/Cupertino 2026_06.jpeg"
+        "src": "assets/projects/2026/Kitchen-Fremont-2026_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2019",
-        "src": "assets/projects/2019/File 3.jpeg"
+        "src": "assets/projects/2019/Kitchen-File 1.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2019",
-        "src": "assets/projects/2019/File 2.jpeg"
+        "src": "assets/projects/2019/Kitchen-File 6.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2019",
-        "src": "assets/projects/2019/File 5.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2019",
-        "src": "assets/projects/2019/File 6.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2019",
-        "src": "assets/projects/2019/File 1.jpeg"
-    },
-    {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_04.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_09.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_10.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Long Beach  Unit Apartment  ~_",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino 2-2021_03.jpeg"
+        "src": "assets/projects/2021/Kitchen-Long Beach 106 Unit apartment -2021~2022_03.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_12.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 3.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 1.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_09.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 1-2021_04.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_08.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino _",
+        "filter_tag": "fireplace",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_13.jpeg"
+        "src": "assets/projects/2021/Fireplace-Cupertino2-2021_11.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_02.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 1-2021_05.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_04.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_07.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_04.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_11.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_12.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_02.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_09.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_14.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_08.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 7.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 2.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_09.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino 2-2021_02.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_07.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_13.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_05.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_08.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_11.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park  _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_07.jpeg"
+        "src": "assets/projects/2021/Bathroom-Menlo Park 1-2021_06.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_13.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_15.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Long Beach 106 Unit apartment -2021~2022_06.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_09.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Long Beach  Unit Apartment  ~_",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_03.jpeg"
+        "src": "assets/projects/2021/Kitchen-Long Beach 106 Unit apartment -2021~2022_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Long Beach  Unit Apartment  ~_",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 9.jpeg"
+        "src": "assets/projects/2021/Kitchen-Long Beach 106 Unit apartment -2021~2022_04.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_03.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino2-2021_07.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_02.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_08.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino 2-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_04.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_10.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_12.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 5.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_10.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_06.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_04.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_07.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 4.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_08.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_11.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino 2-2021_04.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino 2-2021_04.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 6.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_03.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino2-2021_08.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Mountain View  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_02.jpeg"
+        "src": "assets/projects/2021/Kitchen-Mountain View 1-2021_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 8.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_13.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_02.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 2-2021_07.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino 2-2021_08.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Long Beach 106 Unit apartment -2021~2022_07.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 5.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_14.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_02.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Long Beach  Unit Apartment  ~_",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_08.jpeg"
+        "src": "assets/projects/2021/Kitchen-Long Beach 106 Unit apartment -2021~2022_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Long Beach 106 Unit apartment -2021~2022_04.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino2-2021_04.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_04.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_09.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 1-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_07.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 7.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino 2-2021_08.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_12.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 9.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_02.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_11.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Menlo Park  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_03.jpeg"
+        "src": "assets/projects/2021/Kitchen-Menlo Park 1-2021_10.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino 2-2021_06.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 8.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_13.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_08.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/File 6.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino2-2021_05.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 1-2021_04.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino2-2021_13.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Long Beach  Unit Apartment  ~_",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-Long Beach 106 Unit apartment -2021~2022_06.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Long Beach 106 Unit apartment -2021~2022_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_03.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Cupertino  _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_09.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino 2-2021_06.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_02.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 4.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 1.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino 2-2021_05.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_14.jpeg"
+        "src": "assets/projects/2021/Bathroom-Saratoga 1-2021_04.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_10.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_12.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_04.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino2-2021_09.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_06.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_04.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/File 10.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino2-2021_02.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_07.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino2-2021_14.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_11.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 11.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_07.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_08.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Saratoga  _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_08.jpeg"
+        "src": "assets/projects/2021/Bathroom-Saratoga 1-2021_03.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_11.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino 2-2021_02.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_09.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 3.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Roomcupertino _",
+        "filter_tag": "laundry",
         "year": "2021",
-        "src": "assets/projects/2021/Long Beach 106 Unit apartment -2021~2022_03.jpeg"
+        "src": "assets/projects/2021/LaundryroomCupertino2-2021_06.jpeg"
     },
     {
-        "location": "Cupertino",
-        "filter_tag": "cupertino",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Cupertino2-2021_06.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 2.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Cupertino  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_10.jpeg"
+        "src": "assets/projects/2021/Kitchen-Cupertino 2-2021_03.jpeg"
     },
     {
-        "location": "San Jose",
-        "filter_tag": "san-jose",
+        "location": "Saratoga  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/San Jose 02-2021_06.jpeg"
+        "src": "assets/projects/2021/Kitchen-Saratoga 1-2021_02.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "Cupertino _",
+        "filter_tag": "fireplace",
         "year": "2021",
-        "src": "assets/projects/2021/File 11.jpeg"
+        "src": "assets/projects/2021/Fireplace-Cupertino2-2021_12.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_07.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_09.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 2-2021_05.jpeg"
+        "src": "assets/projects/2021/Kitchen-File 10.jpeg"
     },
     {
-        "location": "Mountain View",
-        "filter_tag": "mountain-view",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Mountain View 1-2021_02.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino2-2021_03.jpeg"
     },
     {
-        "location": "Saratoga",
-        "filter_tag": "saratoga",
+        "location": "Cupertino _",
+        "filter_tag": "bathroom",
         "year": "2021",
-        "src": "assets/projects/2021/Saratoga 1-2021_11.jpeg"
+        "src": "assets/projects/2021/Bathroom-Cupertino2-2021_15.jpeg"
     },
     {
-        "location": "Menlo Park",
-        "filter_tag": "menlo-park",
+        "location": "San Jose  _",
+        "filter_tag": "kitchen",
         "year": "2021",
-        "src": "assets/projects/2021/Menlo Park 1-2021_03.jpeg"
+        "src": "assets/projects/2021/Kitchen-San Jose 02-2021_05.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 3.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 13.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 12.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 1.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "bathroom",
         "year": "2020",
-        "src": "assets/projects/2020/File 13.jpeg"
+        "src": "assets/projects/2020/Bathroom-File 5.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 2.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 12.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 9.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 7.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 5.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 6.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 4.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 9.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 8.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 4.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 7.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 11.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 6.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 3.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2020",
-        "src": "assets/projects/2020/File 1.jpeg"
+        "src": "assets/projects/2020/Kitchen-File 2.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2020",
-        "src": "assets/projects/2020/File 10.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
-        "year": "2020",
-        "src": "assets/projects/2020/File 11.jpeg"
-    },
-    {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2018",
-        "src": "assets/projects/2018/File 3.jpg"
+        "src": "assets/projects/2018/Kitchen-File 7.jpeg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2018",
-        "src": "assets/projects/2018/File 2.jpg"
+        "src": "assets/projects/2018/Kitchen-File 4.jpg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2018",
-        "src": "assets/projects/2018/File 1.jpg"
+        "src": "assets/projects/2018/Kitchen-File 6.jpg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2018",
-        "src": "assets/projects/2018/File 5.jpg"
+        "src": "assets/projects/2018/Kitchen-File 3.jpg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2018",
-        "src": "assets/projects/2018/File 4.jpg"
+        "src": "assets/projects/2018/Kitchen-File 2.jpg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "kitchen",
         "year": "2018",
-        "src": "assets/projects/2018/File 6.jpg"
+        "src": "assets/projects/2018/Kitchen-File 1.jpg"
     },
     {
-        "location": "Other Locations",
-        "filter_tag": "other",
+        "location": "File",
+        "filter_tag": "bathroom",
         "year": "2018",
-        "src": "assets/projects/2018/File 7.jpeg"
+        "src": "assets/projects/2018/Bathroom-File 5.jpg"
     }
 ]
