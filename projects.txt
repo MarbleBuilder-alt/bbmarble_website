@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | B&B Marble, Inc.</title>
+    <!-- Montserrat Font to match business style -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --brand-dark: #1a1a1a;
+            --brand-light: #f4f4f4;
+            --overlay-bg: rgba(0, 0, 0, 0.7);
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff;
+            color: var(--brand-dark);
+            margin: 0;
+            padding: 0;
+        }
+
+        .gallery-header {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+
+        .gallery-header h1 {
+            font-weight: 300;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        /* Filter Navigation */
+        .filter-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: none;
+            border: 1px solid var(--brand-dark);
+            padding: 8px 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background-color: var(--brand-dark);
+            color: white;
+        }
+
+        /* Responsive Grid */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 15px;
+            padding: 0 15px 60px;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 4 / 3;
+            background-color: #eee;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        /* Hover Overlay Style */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--overlay-bg);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .gallery-item:hover .overlay {
+            opacity: 1;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+
+        .overlay h3 {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0 0 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .overlay p {
+            font-size: 13px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="gallery-header">
+        <h1>Our Projects</h1>
+        <div class="filter-nav" id="filter-buttons">
+            <button class="filter-btn active" onclick="filterGallery('all')">All</button>
+            <!-- Dynamic filters will be injected here -->
+        </div>
+    </section>
+
+    <main class="gallery-grid" id="gallery-container">
+        <!-- 339 Photos will be injected here -->
+    </main>
+
+    <script>
+        let allData = [];
+
+        async function loadGallery() {
+            try {
+                const response = await fetch('gallery-data.json');
+                allData = await response.json();
+                
+                renderFilters();
+                renderGallery('all');
+            } catch (err) {
+                console.error("Error loading gallery data:", err);
+            }
+        }
+
+        function renderFilters() {
+            const container = document.getElementById('filter-buttons');
+            const categories = [...new Set(allData.map(item => item.category))].sort();
+            
+            categories.forEach(cat => {
+                if (cat && cat !== 'all') {
+                    const btn = document.createElement('button');
+                    btn.className = 'filter-btn';
+                    btn.textContent = cat;
+                    btn.onclick = () => filterGallery(cat);
+                    container.appendChild(btn);
+                }
+            });
+        }
+
+        function renderGallery(filter) {
+            const container = document.getElementById('gallery-container');
+            container.innerHTML = '';
+
+            const filtered = filter === 'all' 
+                ? allData 
+                : allData.filter(item => item.category === filter);
+
+            filtered.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'gallery-item';
+                div.innerHTML = `
+                    <img src="${item.src}" alt="${item.city}">
+                    <div class="overlay">
+                        <h3>${item.city}</h3>
+                        <p>${item.year}</p>
+                    </div>
+                `;
+                container.appendChild(div);
+            });
+
+            // Update active button state
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.toLowerCase() === filter.toLowerCase());
+            });
+        }
+
+        function filterGallery(category) {
+            renderGallery(category);
+        }
+
+        window.onload = loadGallery;
+    </script>
+</body>
+</html>
