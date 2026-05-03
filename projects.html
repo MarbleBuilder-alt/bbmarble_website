@@ -9,7 +9,7 @@
         :root {
             --brand-dark: #1a1a1a;
             --brand-white: #ffffff;
-            --overlay-bg: rgba(0, 0, 0, 0.7);
+            --overlay-bg: rgba(0, 0, 0, 0.8);
         }
 
         body {
@@ -20,9 +20,9 @@
             padding: 0;
         }
 
-        /* 2. Home Navigation Button */
+        /* Home Navigation Button */
         .nav-header {
-            padding: 20px 40px;
+            padding: 30px 40px;
             display: flex;
             justify-content: flex-start;
         }
@@ -30,7 +30,7 @@
         .back-home {
             text-decoration: none;
             color: var(--brand-dark);
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 2px;
             border-bottom: 1px solid var(--brand-dark);
@@ -39,21 +39,22 @@
         }
 
         .back-home:hover {
-            opacity: 0.6;
+            opacity: 0.5;
         }
 
         .gallery-header {
             text-align: center;
-            padding: 20px 20px 40px;
+            padding: 0 20px 40px;
         }
 
         .gallery-header h1 {
             font-weight: 300;
-            letter-spacing: 5px;
+            letter-spacing: 6px;
             text-transform: uppercase;
+            margin-bottom: 30px;
         }
 
-        /* 1. Filter Navigation */
+        /* Filter Navigation */
         .filter-nav {
             display: flex;
             justify-content: center;
@@ -64,14 +65,14 @@
 
         .filter-btn {
             background: none;
-            border: 1px solid #ccc;
-            padding: 8px 18px;
+            border: 1px solid #ddd;
+            padding: 10px 22px;
             font-family: 'Montserrat', sans-serif;
             font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all 0.3s ease;
         }
 
         .filter-btn:hover, .filter-btn.active {
@@ -80,70 +81,79 @@
             border-color: var(--brand-dark);
         }
 
-        /* 4. Four Column Grid */
+        /* Four Column Grid */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr); /* Force 4 columns */
-            gap: 10px;
-            padding: 0 10px 60px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            padding: 0 12px 60px;
         }
 
         .gallery-item {
             position: relative;
             overflow: hidden;
-            aspect-ratio: 1 / 1; /* Square look for precision */
-            background-color: #f9f9f9;
+            aspect-ratio: 1 / 1;
+            background-color: #f5f5f5;
         }
 
         .gallery-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            transition: transform 0.5s ease;
+            transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
         }
 
-        /* 3. Hover Caption (Bottom Only) */
+        /* Hover Caption (Bottom Only) */
         .overlay {
             position: absolute;
             bottom: 0;
             left: 0;
             width: 100%;
-            height: 60px; /* Fixed height for bottom only */
+            height: 70px;
             background: var(--overlay-bg);
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             opacity: 0;
-            transform: translateY(100%); /* Start off-screen */
-            transition: all 0.4s ease;
+            transform: translateY(100%);
+            transition: all 0.4s ease-out;
             color: white;
+            pointer-events: none;
         }
 
         .gallery-item:hover .overlay {
             opacity: 1;
-            transform: translateY(0); /* Slide up into view */
+            transform: translateY(0);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
         }
 
         .overlay h3 {
-            font-size: 12px;
+            font-size: 13px;
             margin: 0;
+            font-weight: 400;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
         }
 
         .overlay p {
-            font-size: 10px;
-            margin: 2px 0 0;
+            font-size: 11px;
+            margin: 4px 0 0;
+            font-weight: 300;
             opacity: 0.8;
         }
 
-        @media (max-width: 1024px) {
+        /* Tablet/Mobile Adjustments */
+        @media (max-width: 1100px) {
             .gallery-grid { grid-template-columns: repeat(2, 1fr); }
         }
 
         @media (max-width: 600px) {
             .gallery-grid { grid-template-columns: 1fr; }
+            .nav-header { padding: 20px; }
         }
     </style>
 </head>
@@ -172,17 +182,17 @@
                 renderFilters();
                 renderGallery('all');
             } catch (err) {
-                console.error("Data load failed:", err);
+                console.error("Critical: Could not load gallery data.", err);
             }
         }
 
         function renderFilters() {
             const container = document.getElementById('filter-buttons');
-            // Extracts unique categories from your 339 photos
-            const categories = [...new Set(allData.map(item => item.category))].sort();
+            // Uses 'filter_tag' to match your JSON data
+            const categories = [...new Set(allData.map(item => item.filter_tag))].sort();
             
             categories.forEach(cat => {
-                if (cat && cat !== 'all') {
+                if (cat && cat.toLowerCase() !== 'all') {
                     const btn = document.createElement('button');
                     btn.className = 'filter-btn';
                     btn.textContent = cat;
@@ -198,23 +208,31 @@
 
             const filtered = filter === 'all' 
                 ? allData 
-                : allData.filter(item => item.category === filter);
+                : allData.filter(item => item.filter_tag === filter);
 
             filtered.forEach(item => {
                 const div = document.createElement('div');
                 div.className = 'gallery-item';
+                
+                // Cleans up the " _" from your location strings automatically
+                const cleanLocation = (item.location || "").replace(/_/g, "").trim();
+                const displayYear = item.year || "";
+
                 div.innerHTML = `
-                    <img src="${item.src}" alt="${item.city}">
+                    <img src="${item.src}" alt="${cleanLocation}">
                     <div class="overlay">
-                        <h3>${item.city}</h3>
-                        <p>${item.year}</p>
+                        <h3>${cleanLocation}</h3>
+                        <p>${displayYear}</p>
                     </div>
                 `;
                 container.appendChild(div);
             });
 
+            // Handle active button state
             document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.textContent.toLowerCase() === filter.toLowerCase());
+                const btnText = btn.textContent.toLowerCase();
+                const isActive = (filter === 'all' && btnText === 'view all') || (btnText === filter.toLowerCase());
+                btn.classList.toggle('active', isActive);
             });
         }
 
