@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>How to Choose the Right Stone Fabricator | B&amp;B Marble, Inc.</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;family=Noto+Serif+SC:wght@300;400&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root {
+      --cream:      #f7f5f1;
+      --white:      #ffffff;
+      --stone-100:  #ede9e3;
+      --stone-200:  #d8d1c6;
+      --stone-400:  #a09080;
+      --stone-600:  #6b5d52;
+      --charcoal:   #2a2420;
+      --gold:       #b5924c;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Jost', sans-serif;
+      --font-zh:      'Noto Serif SC', serif;
+      --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    body.zh { font-family: var(--font-zh); }
+    a { color: inherit; text-decoration: none; }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: .55;
+    }
+
+    /* Language */
+    .en { display: initial; }
+    .zh-text { display: none; }
+    body.zh .en { display: none; }
+    body.zh .zh-text { display: initial; }
+    .en-block { display: block; }
+    .zh-block { display: none; }
+    body.zh .en-block { display: none; }
+    body.zh .zh-block { display: block; }
+
+    /* Header */
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem var(--gutter);
+      border-bottom: 1px solid var(--stone-100);
+    }
+    .back-link {
+      font-size: .72rem;
+      font-weight: 400;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--stone-600);
+      transition: color .2s;
+    }
+    .back-link:hover { color: var(--gold); }
+
+    .lang-toggle {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--stone-200);
+      overflow: hidden;
+    }
+    .lang-btn {
+      font-size: .68rem;
+      font-weight: 500;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      padding: .4rem .8rem;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      color: var(--stone-400);
+      transition: background .2s, color .2s;
+      font-family: var(--font-body);
+    }
+    .lang-btn.active { background: var(--charcoal); color: var(--white); }
+    .lang-btn:hover:not(.active) { color: var(--gold); }
+    .lang-divider { width: 1px; background: var(--stone-200); align-self: stretch; }
+
+    /* Article layout */
+    .article-wrap {
+      max-width: 780px;
+      margin-inline: auto;
+      padding: 5rem var(--gutter) 8rem;
+    }
+
+    /* Post header */
+    .post-category {
+      font-size: .68rem;
+      font-weight: 500;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .post-category::before {
+      content: '';
+      display: block;
+      width: 2rem;
+      height: 1px;
+      background: var(--gold);
+    }
+    .post-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-weight: 300;
+      line-height: 1.15;
+      color: var(--charcoal);
+      margin-bottom: 1.5rem;
+    }
+    body.zh .post-title { font-family: var(--font-zh); font-size: clamp(1.8rem, 4vw, 2.8rem); }
+
+    .post-meta {
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--stone-400);
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--stone-100);
+      margin-bottom: 3.5rem;
+    }
+
+    /* Article body */
+    .article-body p {
+      font-size: 1.05rem;
+      color: var(--stone-600);
+      margin-bottom: 1.8rem;
+      line-height: 1.85;
+    }
+    .article-body p:first-child {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      color: var(--charcoal);
+      font-weight: 300;
+      line-height: 1.7;
+    }
+    body.zh .article-body p:first-child { font-family: var(--font-zh); }
+
+    .article-body h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 400;
+      color: var(--charcoal);
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+    body.zh .article-body h2 { font-family: var(--font-zh); font-size: 1.4rem; }
+
+    .article-body .step-num {
+      display: block;
+      font-size: .68rem;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: .4rem;
+    }
+
+    .article-divider {
+      border: none;
+      border-top: 1px solid var(--stone-100);
+      margin: 3rem 0;
+    }
+
+    /* CTA section */
+    .post-cta {
+      margin-top: 5rem;
+      padding: 3rem;
+      background: var(--white);
+      border-left: 2px solid var(--gold);
+    }
+    .post-cta-label {
+      font-size: .68rem;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .post-cta h3 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: var(--charcoal);
+      margin-bottom: .8rem;
+    }
+    body.zh .post-cta h3 { font-family: var(--font-zh); font-size: 1.4rem; }
+    .post-cta p {
+      font-size: .95rem;
+      color: var(--stone-600);
+      margin-bottom: 1.5rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      font-size: .74rem;
+      font-weight: 500;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--white);
+      background: var(--charcoal);
+      padding: 1rem 2.4rem;
+      border: 1px solid var(--charcoal);
+      transition: background .25s, color .25s, border-color .25s;
+    }
+    .btn-primary:hover { background: var(--gold); border-color: var(--gold); }
+
+    /* Footer */
+    footer {
+      background: var(--charcoal);
+      color: var(--stone-200);
+      padding: 2.5rem var(--gutter);
+      text-align: center;
+      font-size: .75rem;
+      letter-spacing: .1em;
+    }
+    footer a { color: var(--stone-400); transition: color .2s; }
+    footer a:hover { color: var(--gold); }
+  </style>
+</head>
+<body>
+<header class="site-header">
+<a class="back-link" href="blog.html">
+<span class="en">← Back to Blog</span><span class="zh-text">← 返回博客</span>
+</a>
+<div class="lang-toggle">
+<button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+<div class="lang-divider"></div>
+<button class="lang-btn" id="btn-zh" onclick="setLang('zh')">中文</button>
+</div>
+</header>
+<article class="article-wrap">
+<header>
+<div class="post-category">
+<span class="en">Stone Guides</span><span class="zh-text">石材指南</span>
+</div>
+<h1 class="post-title">
+<span class="en-block">How to Choose the Right Stone Fabricator and Installer for Your Home</span>
+<span class="zh-block">如何为您的家居选择合适的石材加工与安装商</span>
+</h1>
+<div class="post-meta">May 2025  ·  B&amp;B Marble</div>
+</header>
+<div class="article-body">
+<p>
+<span class="en-block">Selecting the right stone fabricator and installer is one of the most important decisions in any kitchen or bathroom remodeling project. Beautiful stone materials such as quartz, marble, porcelain, and quartzite are significant investments, and the quality of fabrication and installation can make the difference between a stunning result and a costly disappointment. Here are five key factors every homeowner should consider before hiring a stone contractor.</span>
+<span class="zh-block">选择合适的石材加工与安装商，是厨房或卫浴翻新项目中最为关键的决定之一。石英石、大理石、瓷砖板材和石英岩等精美石材都是一笔可观的投资，而加工与安装的品质，往往决定了成品是惊艳夺目还是令人懊悔的代价。以下是每位业主在聘请石材承包商之前都应考量的五大关键因素。</span>
+</p>
+<hr class="article-divider"/>
+<span class="step-num"><span class="en">01 — Licenses &amp; Insurance</span><span class="zh-text">01 — 执照与保险</span></span>
+<h2>
+<span class="en-block">Verify Licenses and Insurance</span>
+<span class="zh-block">核实执照与保险</span>
+</h2>
+<p>
+<span class="en-block">Always confirm that your fabricator and installer are properly licensed and insured. A valid contractor's license demonstrates that the company meets state requirements and industry standards. Equally important is carrying adequate general liability and workers' compensation insurance, which protects both the homeowner and contractor in the event of property damage or workplace accidents. Don't hesitate to ask for proof of licensing and insurance before signing a contract.</span>
+<span class="zh-block">请务必确认您的石材加工与安装商持有合法的执照与保险。有效的承包商执照表明该公司符合州政府的法规要求和行业标准。同样重要的是，公司需具备充足的综合责任险（General Liability）和工伤赔偿保险（Workers' Compensation），以便在发生财产损失或工地事故时同时保障业主与承包商的权益。在签订合同前，请放心要求对方出示执照与保险证明。</span>
+</p>
+<span class="step-num"><span class="en">02 — Reputation</span><span class="zh-text">02 — 口碑信誉</span></span>
+<h2>
+<span class="en-block">Research Their Reputation</span>
+<span class="zh-block">了解口碑与信誉</span>
+</h2>
+<p>
+<span class="en-block">Online reviews provide valuable insight into a company's professionalism, craftsmanship, communication, and customer service. Look for consistent positive feedback across multiple platforms and pay attention to comments about reliability, timeliness, and problem resolution. A strong reputation built on satisfied customers is often one of the best indicators of a successful project.</span>
+<span class="zh-block">网络评价能够真实反映一家公司的专业水准、工艺品质、沟通能力与客户服务。建议查阅多个平台上的口碑反馈，重点关注关于可靠性、守时度与问题处理的评论。建立在客户满意基础上的良好口碑，往往是项目成功最有力的保证之一。</span>
+</p>
+<span class="step-num"><span class="en">03 — Guarantees</span><span class="zh-text">03 — 质量保证</span></span>
+<h2>
+<span class="en-block">Ask About Guarantees and After-Installation Support</span>
+<span class="zh-block">了解质保政策与售后支持</span>
+</h2>
+<p>
+<span class="en-block">Stone fabrication involves cutting and handling large, heavy slabs. Even experienced fabricators can occasionally encounter material defects or breakage during fabrication. Before proceeding, ask who bears responsibility if a slab breaks during the cutting process and whether the company offers any workmanship warranty. You should also understand what support is available after installation. Reputable companies stand behind their work and are responsive if adjustments or corrections are needed after the project is completed.</span>
+<span class="zh-block">石材加工涉及大型沉重板材的切割与搬运，即便经验丰富的师傅，也偶尔会遇到材料瑕疵或加工过程中破损的情况。在签约前，请明确询问：如果板材在切割过程中破损，由谁承担责任？公司是否提供工艺保修？同时，您也应了解安装完成后能够获得哪些售后支持。信誉良好的公司会对自身工艺负责，并在项目完成后及时响应任何调整或修补需求。</span>
+</p>
+<span class="step-num"><span class="en">04 — Experience</span><span class="zh-text">04 — 行业经验</span></span>
+<h2>
+<span class="en-block">Consider Years of Experience</span>
+<span class="zh-block">重视多年从业经验</span>
+</h2>
+<p>
+<span class="en-block">Experience matters. Companies that have been in business for many years have likely encountered a wide variety of materials, layouts, and installation challenges. They have refined their processes and developed the expertise needed to deliver consistent results. An established fabricator is also more likely to be available in the future should you need service, repairs, or assistance with additional projects.</span>
+<span class="zh-block">经验至关重要。经营多年的公司通常处理过各式各样的材料、布局与安装挑战，他们的工艺流程经过反复打磨，具备稳定交付高品质成果的专业能力。一家根基稳固的加工商，未来在您需要维护、修理或开展新项目时，也更有可能继续为您提供服务。</span>
+</p>
+<span class="step-num"><span class="en">05 — Portfolio</span><span class="zh-text">05 — 作品案例</span></span>
+<h2>
+<span class="en-block">Review Their Portfolio and Website</span>
+<span class="zh-block">查看作品集与官方网站</span>
+</h2>
+<p>
+<span class="en-block">A professional website should showcase completed projects, fabrication capabilities, and examples of the company's craftsmanship. Pay particular attention to projects that resemble your own, especially high-end residential homes where precision and attention to detail are critical. Look for examples of waterfall islands, full-height backsplashes, custom vanities, intricate edge profiles, and large-format installations. A strong portfolio demonstrates both technical expertise and design versatility.</span>
+<span class="zh-block">专业的网站应当展示已完成的项目、加工能力以及公司工艺水平的实例。请特别留意与您家相似的项目，尤其是对精度和细节要求极高的高端住宅案例。可重点查看瀑布岛台、整墙背板、定制浴室柜、精细边缘造型以及大尺寸石板的安装案例。一份出色的作品集，既能体现技术实力，也能展现设计的多样性。</span>
+</p>
+<hr class="article-divider"/>
+<h2>
+<span class="en-block">Why Homeowners Choose B&amp;B Marble</span>
+<span class="zh-block">为什么业主选择 B&amp;B Marble</span>
+</h2>
+<p>
+<span class="en-block">At B&amp;B Marble, we understand that homeowners expect exceptional craftsmanship, transparency, and reliability. Our team specializes in the fabrication and installation of quartz, porcelain, marble, and natural stone surfaces throughout the San Francisco Bay Area. We are fully licensed and insured, have extensive experience working in luxury residential homes, and stand behind the quality of our workmanship. From kitchen countertops and waterfall islands to full-height backsplashes and custom bathroom vanities, we work closely with homeowners, designers, and contractors to ensure every project exceeds expectations.</span>
+<span class="zh-block">在 B&amp;B Marble，我们深知业主对卓越工艺、透明流程与可靠服务的期待。我们的团队专注于旧金山湾区范围内石英石、瓷砖板材、大理石及天然石材表面的加工与安装。我们持有完整的执照与保险，拥有丰富的豪宅项目经验，并对每一件作品的品质负责到底。从厨房台面、瀑布岛台，到整墙背板与定制浴室柜，我们与业主、设计师及承包商紧密合作，确保每一个项目都超越期待。</span>
+</p>
+</div>
+<div class="post-cta">
+<div class="post-cta-label">
+<span class="en">Ready to get started?</span><span class="zh-text">准备开始您的项目？</span>
+</div>
+<h3>
+<span class="en-block">Let's discuss your project.</span>
+<span class="zh-block">让我们一起规划您的项目。</span>
+</h3>
+<p>
+<span class="en-block">Planning a remodeling project? Contact B&amp;B Marble for a complimentary consultation and material estimate.</span>
+<span class="zh-block">正在筹划翻新项目？欢迎联系 B&amp;B Marble，预约免费咨询与材料估价。</span>
+</p>
+<a class="btn-primary" href="index.html#contact">
+<span class="en">Get a Quote</span><span class="zh-text">获取报价</span>
+</a>
+</div>
+</article>
+<footer>
+<p>© 1999–2025 B&amp;B Marble, Inc.  ·  <a href="index.html">bbmarble.com</a></p>
+</footer>
+<script>
+  function setLang(lang) {
+    const body = document.body;
+    const btnEn = document.getElementById('btn-en');
+    const btnZh = document.getElementById('btn-zh');
+    if (lang === 'zh') {
+      body.classList.add('zh');
+      btnZh.classList.add('active');
+      btnEn.classList.remove('active');
+      document.documentElement.setAttribute('lang', 'zh');
+    } else {
+      body.classList.remove('zh');
+      btnEn.classList.add('active');
+      btnZh.classList.remove('active');
+      document.documentElement.setAttribute('lang', 'en');
+    }
+    localStorage.setItem('bbmarble-lang', lang);
+  }
+  const savedLang = localStorage.getItem('bbmarble-lang');
+  if (savedLang === 'zh') setLang('zh');
+</script>
+</body>
+</html>

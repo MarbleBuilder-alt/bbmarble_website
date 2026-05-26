@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog | B&amp;B Marble, Inc.</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;family=Noto+Serif+SC:wght@300;400&amp;display=swap" rel="stylesheet"/>
+<style>
+    :root {
+      --cream:      #f7f5f1;
+      --white:      #ffffff;
+      --stone-100:  #ede9e3;
+      --stone-200:  #d8d1c6;
+      --stone-400:  #a09080;
+      --stone-600:  #6b5d52;
+      --charcoal:   #2a2420;
+      --gold:       #b5924c;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Jost', sans-serif;
+      --font-zh:      'Noto Serif SC', serif;
+      --gutter: clamp(1.5rem, 5vw, 4rem);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      background: var(--cream);
+      color: var(--charcoal);
+      font-family: var(--font-body);
+      font-weight: 300;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    body.zh { font-family: var(--font-zh); }
+    a { color: inherit; text-decoration: none; }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+      opacity: .55;
+    }
+
+    /* Language */
+    .en { display: initial; }
+    .zh-text { display: none; }
+    body.zh .en { display: none; }
+    body.zh .zh-text { display: initial; }
+    .en-block { display: block; }
+    .zh-block { display: none; }
+    body.zh .en-block { display: none; }
+    body.zh .zh-block { display: block; }
+
+    /* Header */
+    .site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem var(--gutter);
+      border-bottom: 1px solid var(--stone-100);
+    }
+    .back-link {
+      font-size: .72rem;
+      font-weight: 400;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--stone-600);
+      transition: color .2s;
+    }
+    .back-link:hover { color: var(--gold); }
+
+    .lang-toggle {
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--stone-200);
+      overflow: hidden;
+    }
+    .lang-btn {
+      font-size: .68rem;
+      font-weight: 500;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      padding: .4rem .8rem;
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      color: var(--stone-400);
+      transition: background .2s, color .2s;
+      font-family: var(--font-body);
+    }
+    .lang-btn.active { background: var(--charcoal); color: var(--white); }
+    .lang-btn:hover:not(.active) { color: var(--gold); }
+    .lang-divider { width: 1px; background: var(--stone-200); align-self: stretch; }
+
+    /* Page title */
+    .blog-hero {
+      padding: 5rem var(--gutter) 3rem;
+      max-width: 1320px;
+      margin-inline: auto;
+    }
+    .blog-hero .label {
+      font-size: .7rem;
+      font-weight: 500;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      color: var(--stone-400);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .blog-hero .label::before {
+      content: '';
+      display: block;
+      width: 2rem;
+      height: 1px;
+      background: var(--gold);
+    }
+    .blog-hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(3rem, 6vw, 5rem);
+      font-weight: 300;
+      line-height: 1.1;
+      color: var(--charcoal);
+    }
+    body.zh .blog-hero h1 { font-family: var(--font-zh); }
+
+    /* Post grid */
+    .post-grid {
+      max-width: 1320px;
+      margin-inline: auto;
+      padding: 0 var(--gutter) 8rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 2px;
+    }
+
+    /* Post card */
+    .post-card {
+      background: var(--white);
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      transition: box-shadow .3s;
+    }
+    .post-card:hover { box-shadow: 0 8px 40px rgba(42,36,32,.08); }
+
+    .post-category {
+      font-size: .68rem;
+      font-weight: 500;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .post-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+      font-weight: 300;
+      line-height: 1.25;
+      color: var(--charcoal);
+    }
+    body.zh .post-title { font-family: var(--font-zh); font-size: 1.3rem; }
+
+    .post-excerpt {
+      font-size: .95rem;
+      color: var(--stone-600);
+      line-height: 1.8;
+      flex-grow: 1;
+    }
+    .post-meta {
+      font-size: .7rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--stone-400);
+    }
+    .post-read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      font-size: .72rem;
+      font-weight: 500;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      border-bottom: 1px solid var(--stone-200);
+      padding-bottom: .2rem;
+      width: fit-content;
+      transition: color .2s, border-color .2s;
+    }
+    .post-read-more::after { content: '→'; font-size: 1rem; transition: transform .2s; }
+    .post-read-more:hover { color: var(--gold); border-color: var(--gold); }
+    .post-read-more:hover::after { transform: translateX(4px); }
+
+    /* Footer */
+    footer {
+      background: var(--charcoal);
+      color: var(--stone-200);
+      padding: 2.5rem var(--gutter);
+      text-align: center;
+      font-size: .75rem;
+      letter-spacing: .1em;
+    }
+    footer a { color: var(--stone-400); transition: color .2s; }
+    footer a:hover { color: var(--gold); }
+
+    @media (max-width: 640px) {
+      .post-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<header class="site-header">
+<a class="back-link" href="index.html">
+<span class="en">← Back to Home</span><span class="zh-text">← 返回首页</span>
+</a>
+<div class="lang-toggle">
+<button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+<div class="lang-divider"></div>
+<button class="lang-btn" id="btn-zh" onclick="setLang('zh')">中文</button>
+</div>
+</header>
+<section class="blog-hero">
+<div class="label">
+<span class="en">Insights &amp; Guides</span><span class="zh-text">洞察与指南</span>
+</div>
+<h1>
+<span class="en-block">From the Studio</span>
+<span class="zh-block">工坊手记</span>
+</h1>
+</section>
+<main class="post-grid">
+<!-- Post 1 -->
+<article class="post-card">
+<div class="post-category">
+<span class="en">Stone Guides</span><span class="zh-text">石材指南</span>
+</div>
+<h2 class="post-title">
+<span class="en-block">How to Choose the Right Stone Fabricator and Installer for Your Home</span>
+<span class="zh-block">如何为您的家选择合适的石材加工与安装商</span>
+</h2>
+<p class="post-excerpt">
+<span class="en-block">Selecting the right stone fabricator and installer is one of the most important decisions in any kitchen or bathroom remodeling project. Here are five key factors every homeowner should consider.</span>
+<span class="zh-block">在任何厨房或浴室翻新工程中，挑选合适的石材加工与安装商都是至关重要的决定之一。以下是每位业主都应考量的五大关键因素。</span>
+</p>
+<div class="post-meta">May 2025</div>
+<a class="post-read-more" href="blog-choosing-stone-fabricator.html">
+<span class="en">Read Article</span><span class="zh-text">阅读全文</span>
+</a>
+</article>
+</main>
+<footer>
+<p>© 1999–2025 B&amp;B Marble, Inc.  ·  <a href="index.html">bbmarble.com</a></p>
+</footer>
+<script>
+  function setLang(lang) {
+    const body = document.body;
+    const btnEn = document.getElementById('btn-en');
+    const btnZh = document.getElementById('btn-zh');
+    if (lang === 'zh') {
+      body.classList.add('zh');
+      btnZh.classList.add('active');
+      btnEn.classList.remove('active');
+      document.documentElement.setAttribute('lang', 'zh');
+    } else {
+      body.classList.remove('zh');
+      btnEn.classList.add('active');
+      btnZh.classList.remove('active');
+      document.documentElement.setAttribute('lang', 'en');
+    }
+    localStorage.setItem('bbmarble-lang', lang);
+  }
+  const savedLang = localStorage.getItem('bbmarble-lang');
+  if (savedLang === 'zh') setLang('zh');
+</script>
+</body>
+</html>
