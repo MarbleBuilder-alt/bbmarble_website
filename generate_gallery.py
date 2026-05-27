@@ -30,9 +30,7 @@ for root, dirs, files in os.walk(base_dir):
             year_tag = found_year
 
             # 3. Extract Location (The part between Room and Year)
-            # We remove the room name and year/numbers to leave just the city
             loc_step = clean_name.replace(filter_tag, '').replace(year_tag, '')
-            # Clean up leftover dashes or numbers at the end
             for i in range(10): loc_step = loc_step.replace(str(i), '')
             detected_loc = loc_step.replace('-', ' ').strip().title()
             
@@ -46,6 +44,11 @@ for root, dirs, files in os.walk(base_dir):
                 "year": year_tag,
                 "src": relative_src
             })
+
+# --- NEW SORTING LOGIC ---
+# Sorts by year (descending) so 2026 appears before 2024.
+# If years are equal, it sorts alphabetically by location.
+gallery_data.sort(key=lambda x: (x['year'], x['location']), reverse=True)
 
 with open('gallery-data.json', 'w') as f:
     json.dump(gallery_data, f, indent=4)
