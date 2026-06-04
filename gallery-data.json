@@ -1,21 +1,21 @@
 [
     {
         "location": "Redwood City  _",
-        "filter_tag": "kitchen",
+        "filter_tag": "bathroom",
         "year": "2026",
-        "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4894.JPG"
+        "src": "assets/projects/2026/Bathroom-Redwood City-2026 _4894.JPG"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "bathroom",
+        "year": "2026",
+        "src": "assets/projects/2026/Bathroom-Redwood City-2026 _4893.JPG"
     },
     {
         "location": "Redwood City  _",
         "filter_tag": "kitchen",
         "year": "2026",
         "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4892.JPG"
-    },
-    {
-        "location": "Redwood City  _",
-        "filter_tag": "kitchen",
-        "year": "2026",
-        "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4893.JPG"
     },
     {
         "location": "Redwood City  _",
