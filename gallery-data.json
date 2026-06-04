@@ -1,5 +1,29 @@
 [
     {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4894.JPG"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4892.JPG"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4893.JPG"
+    },
+    {
+        "location": "Redwood City  _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Redwood City-2026 _4891.JPG"
+    },
+    {
         "location": "Fremont _",
         "filter_tag": "kitchen",
         "year": "2026",
@@ -76,6 +100,30 @@
         "filter_tag": "kitchen",
         "year": "2025",
         "src": "assets/projects/2025/Kitchen-Saratoga-2025_11.jpeg"
+    },
+    {
+        "location": "Palo Alto _",
+        "filter_tag": "other",
+        "year": "2025",
+        "src": "assets/projects/2025/Other-Palo Alto-2025_4.JPG"
+    },
+    {
+        "location": "Palo Alto _",
+        "filter_tag": "other",
+        "year": "2025",
+        "src": "assets/projects/2025/Other-Palo Alto-2025_1.JPG"
+    },
+    {
+        "location": "Palo Alto _",
+        "filter_tag": "other",
+        "year": "2025",
+        "src": "assets/projects/2025/Other-Palo Alto-2025_3.JPG"
+    },
+    {
+        "location": "Palo Alto _",
+        "filter_tag": "other",
+        "year": "2025",
+        "src": "assets/projects/2025/Other-Palo Alto-2025_2.JPG"
     },
     {
         "location": "Menlo Park _",
@@ -262,6 +310,18 @@
         "filter_tag": "kitchen",
         "year": "2024",
         "src": "assets/projects/2024/Kitchen-Santa Clara-2024_10.jpeg"
+    },
+    {
+        "location": "Santa Clara ..",
+        "filter_tag": "other",
+        "year": "2024",
+        "src": "assets/projects/projects/Santa-Clara-2024.51.3-12.jpeg"
+    },
+    {
+        "location": "Santa Clara ..",
+        "filter_tag": "other",
+        "year": "2024",
+        "src": "assets/projects/projects/Santa-Clara-2024.51.3-3.jpeg"
     },
     {
         "location": "San Jose Showroom _",
