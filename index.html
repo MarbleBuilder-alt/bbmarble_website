@@ -741,6 +741,24 @@
         });
       });
     });
+
+    // Track contact actions: phone, email, and form submission
+    document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        trackEvent('phone_click', { number: a.getAttribute('href').replace('tel:', '') });
+      });
+    });
+    document.querySelectorAll('a[href^="mailto:"]').forEach(function (a) {
+      a.addEventListener('click', function () {
+        trackEvent('email_click', { email: a.getAttribute('href').replace('mailto:', '') });
+      });
+    });
+    var contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function () {
+        trackEvent('contact_form_submit', {});
+      });
+    }
   </script>
 </body>
 </html>
