@@ -716,6 +716,31 @@
     // Restore saved language preference
     const savedLang = localStorage.getItem('bbmarble-lang');
     if (savedLang === 'zh') setLang('zh');
+
+    // --- Google Analytics custom event tracking ---
+    function trackEvent(name, params) {
+      if (typeof gtag === 'function') gtag('event', name, params || {});
+    }
+
+    // Track language toggle clicks (user-initiated only)
+    document.getElementById('btn-en').addEventListener('click', function () {
+      trackEvent('language_switch', { language: 'en' });
+    });
+    document.getElementById('btn-zh').addEventListener('click', function () {
+      trackEvent('language_switch', { language: 'zh' });
+    });
+
+    // Track gallery image clicks
+    document.querySelectorAll('.p-item').forEach(function (item) {
+      item.addEventListener('click', function () {
+        const img = item.querySelector('img');
+        const meta = item.querySelector('.p-caption-meta');
+        trackEvent('gallery_image_click', {
+          image_name: img ? img.getAttribute('alt') : '',
+          location: meta ? meta.textContent.trim() : ''
+        });
+      });
+    });
   </script>
 </body>
 </html>

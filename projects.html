@@ -246,7 +246,25 @@
 
         function filterGallery(category) {
             renderGallery(category);
+            trackEvent('gallery_filter', { filter: category });
         }
+
+        // --- Google Analytics custom event tracking ---
+        function trackEvent(name, params) {
+            if (typeof gtag === 'function') gtag('event', name, params || {});
+        }
+
+        // Track gallery image clicks (delegated, since items render dynamically)
+        document.getElementById('gallery-container').addEventListener('click', function (e) {
+            const item = e.target.closest('.gallery-item');
+            if (!item) return;
+            const loc = item.querySelector('h3');
+            const yr = item.querySelector('p');
+            trackEvent('gallery_image_click', {
+                location: loc ? loc.textContent.trim() : '',
+                year: yr ? yr.textContent.trim() : ''
+            });
+        });
 
         window.onload = loadGallery;
     </script>
