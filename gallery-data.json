@@ -1,5 +1,17 @@
 [
     {
+        "location": "Sunnyvale _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Sunnyvale 2026_02.jpeg"
+    },
+    {
+        "location": "Sunnyvale _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Sunnyvale 2026_01.jpeg"
+    },
+    {
         "location": "Redwood City  _",
         "filter_tag": "bathroom",
         "year": "2026",
@@ -45,6 +57,18 @@
         "location": "Cupertino _",
         "filter_tag": "kitchen",
         "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_08.jpeg"
+    },
+    {
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_09.jpeg"
+    },
+    {
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
+        "year": "2026",
         "src": "assets/projects/2026/Kitchen-Cupertino 2026_05.jpeg"
     },
     {
@@ -55,15 +79,33 @@
     },
     {
         "location": "Cupertino _",
+        "filter_tag": "bathroom",
+        "year": "2026",
+        "src": "assets/projects/2026/Bathroom-Cupertino 2026_03.jpeg"
+    },
+    {
+        "location": "Cupertino _",
         "filter_tag": "kitchen",
         "year": "2026",
         "src": "assets/projects/2026/Kitchen-Cupertino 2026_03.jpeg"
     },
     {
         "location": "Cupertino _",
+        "filter_tag": "bathroom",
+        "year": "2026",
+        "src": "assets/projects/2026/Bathroom-Cupertino 2026_01.jpeg"
+    },
+    {
+        "location": "Cupertino _",
         "filter_tag": "kitchen",
         "year": "2026",
         "src": "assets/projects/2026/Kitchen-Cupertino 2026_06.jpeg"
+    },
+    {
+        "location": "Cupertino _",
+        "filter_tag": "kitchen",
+        "year": "2026",
+        "src": "assets/projects/2026/Kitchen-Cupertino 2026_07.jpeg"
     },
     {
         "location": "Saratoga _",
