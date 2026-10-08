@@ -45,10 +45,40 @@ for root, dirs, files in os.walk(base_dir):
                 "src": relative_src
             })
 
-# --- NEW SORTING LOGIC ---
-# Sorts by year (descending) so 2026 appears before 2024.
-# If years are equal, it sorts alphabetically by location.
-gallery_data.sort(key=lambda x: (x['year'], x['location']), reverse=True)
+# --- SORTING LOGIC ---
+# Newest year first. Within a year, the most recently added photos come first,
+# using the date each file was first committed to git (renames keep the original date).
+# Photos not yet committed count as newest. Ties fall back to location (as before).
+import subprocess, time
+
+def get_added_dates():
+    dates = {}
+    try:
+        out = subprocess.run(
+            ['git', 'log', '--reverse', '-M', '--format=C%ct', '--name-status', '--', 'assets/projects'],
+            capture_output=True, text=True, check=True).stdout
+    except Exception:
+        return dates
+    t = 0
+    for line in out.splitlines():
+        if line.startswith('C') and line[1:].isdigit():
+            t = int(line[1:])
+            continue
+        parts = line.split('\t')
+        if parts[0] == 'A' and len(parts) == 2:
+            dates[parts[1]] = t
+        elif parts[0].startswith('R') and len(parts) == 3:
+            dates[parts[2]] = dates.get(parts[1], t)
+    return dates
+
+added = get_added_dates()
+now = int(time.time())
+for item in gallery_data:
+    item['_added'] = added.get(item['src'], now)
+
+gallery_data.sort(key=lambda x: (x['year'], x['_added'], x['location'], x['src']), reverse=True)
+for item in gallery_data:
+    del item['_added']
 
 with open('gallery-data.json', 'w') as f:
     json.dump(gallery_data, f, indent=4)
