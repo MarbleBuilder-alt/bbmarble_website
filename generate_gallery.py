@@ -1,5 +1,18 @@
 import os
 import json
+import re
+
+def clean_location(raw):
+    """Turn the leftover filename text into a clean caption, e.g. 'custom-cupertino- _' -> 'Cupertino'."""
+    loc = re.sub(r'[^a-z ]', ' ', raw.replace('-', ' '))   # drop ~ . _ digits etc.
+    words = loc.split()
+    words = [w for w in words if w != 'custom']             # 'Custom Cupertino' -> 'Cupertino'
+    if len(words) > 1 and words[0] == 'project':            # 'Project Showroom' -> 'Showroom'
+        words = words[1:]
+    if len(words) > 1 and len(words[-1]) == 1:              # 'Millbrae A' -> 'Millbrae'
+        words = words[:-1]
+    return ' '.join(words).title()
+
 
 base_dir = './assets/projects' 
 gallery_data = []
@@ -32,7 +45,7 @@ for root, dirs, files in os.walk(base_dir):
             # 3. Extract Location (The part between Room and Year)
             loc_step = clean_name.replace(filter_tag, '').replace(year_tag, '')
             for i in range(10): loc_step = loc_step.replace(str(i), '')
-            detected_loc = loc_step.replace('-', ' ').strip().title()
+            detected_loc = clean_location(loc_step)
             
             if not detected_loc: detected_loc = "Bay Area"
 
