@@ -21,6 +21,10 @@ gallery_data = []
 room_types = ['kitchen', 'bathroom', 'laundry', 'outdoor', 'fireplace', 'office']
 
 for root, dirs, files in os.walk(base_dir):
+    # Skip photos sitting loose in assets/projects (not in a year/Archive folder):
+    # their web paths come out wrong and they show as broken images.
+    if os.path.normpath(root) == os.path.normpath(base_dir):
+        continue
     for filename in files:
         if filename.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
             
